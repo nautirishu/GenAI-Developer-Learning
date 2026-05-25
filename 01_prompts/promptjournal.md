@@ -1,4 +1,91 @@
-# Generative AI Prompt Journal
+
+What you asked AI. What AI gave you. Whether the answer was useful. What you understood from the answer.
+
+Prompt 1: Code Generation 
+
+Prompt Used:  I am a beginner Python student. Please create a simple Python function that gives square root of any number. Keep the code easy to understand. Add short comments. After the code, explain how it works in simple words.
+
+AI Output Summary: The code uses python math library to use math.sqrt function to calculate square root of any give number. 
+
+Was it useful? Yes 
+
+What I understood: we can import predefined libraries and use functions from them in python.
+
+
+
+Prompt 2    : Code Generation 
+
+Prompt Used:  Explain the square root calculator function in beginner friendly language line by line so that i get my foundations clear.
+
+AI Output Summary: It explained the importance and working of libraries and functions in python. 
+
+Was it useful? Yes 
+
+What I understood: we can use functions to implement repetitive code in python.
+
+
+
+Prompt 3   : Debugging
+
+Prompt Used:  import math
+
+def square_root(number):
+  
+    if number < 0 
+    raise ValueError("Square root is not defined for negative numbers.") 
+
+    return Math.sqrt(number) 
+
+i wrote this code to calculate square root of any number but it has error, debug the code and explain it in beginner friendly language
+
+
+AI Output Summary: Ai found out the syntax error in my code, colon(:) in if statements, indentation in python and the uppercase0 Math 
+
+Was it useful? Yes 
+
+What I understood: Python is case sensitive, Indentation is important and colons and other symbols are important.
+
+
+
+
+Prompt 4   : Optimization
+Prompt Used:  how can i make square root function cleaner saer and easier to read?
+
+AI Output Summary: It explained why things like better spacing, hints, documentation, imput type and other important issues can help other people to read the code and make it clear for everyone and scalable. 
+
+Was it useful? Yes 
+
+What I understood: Good code is Easy to read
+Easy to debug
+Safe against mistakes
+Easy to maintain.
+
+
+
+
+Prompt 5   : Testing
+Prompt Used:  generate pytest for my square root function for every possible use case
+
+AI Output Summary: Testing is important to check if out code works properly, works for edge cases and does not crash.
+
+Was it useful? Yes 
+
+What I understood: How pytest works and We need to check Cevery type of input for our code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Generative AI Prompt Journal
 
 This file tracks production-ready prompts, system instructions, and engineering guidelines for AI-assisted development.
 
@@ -95,4 +182,4 @@ Test Suite Requirements:
 - Write tests for explicit error handling and exceptions.
 - Use mock data or spies for external dependencies if applicable.
 - Ensure clear, descriptive test names (e.g., `it("should throw an error when input is negative")`).
-```
+``` -->
