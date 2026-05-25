@@ -1,5 +1,5 @@
 import pytest
-from main import celsius_to_fahrenheit, calculate_factorial
+from main import celsius_to_fahrenheit, calculate_factorial, odd_even
 
 # ==========================================
 # Celsius to Fahrenheit Tests
@@ -36,3 +36,20 @@ def test_factorial_negative_error():
     """Test 5: Check that negative inputs raise a ValueError exception."""
     with pytest.raises(ValueError, match="Factorial is not defined for negative numbers."):
         calculate_factorial(-5)
+
+
+# ==========================================
+# Odd Even Tests
+# ==========================================
+
+def test_oddeven_standard_values():
+    """Test 6 check odd even for normal positive or negative integers"""
+    assert odd_even(4) == "Even"
+    assert odd_even(5) == "Odd"
+    assert odd_even(-3) == "Odd"
+    assert odd_even(-8) == "Even"
+
+def test_oddeven_Invalid_input():
+    """test for invalid values"""
+    with pytest.raises(TypeError):
+        odd_even(5.2)
